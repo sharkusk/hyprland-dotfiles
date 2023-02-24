@@ -98,7 +98,6 @@
         :class "volume-slider-box"
         :space-evenly false
         (button
-          :style "font-family:ProductSans;"
           :class "volume-icon icon"
           :onclick "scripts/volume mute SINK"
           {volume.icon})
@@ -113,7 +112,6 @@
         (button
           :class "volume-icon icon"
           :onclick "scripts/volume mute SOURCE"
-          :style "font-family:ProductSans;"
           "")
         (scale
           :class "volume-bar"

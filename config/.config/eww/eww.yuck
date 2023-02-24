@@ -29,7 +29,6 @@
   (box
     :space-evenly false
     :halign "end"
-    (bright)
     (volume-module)
     (bluetooth)
     (net)
